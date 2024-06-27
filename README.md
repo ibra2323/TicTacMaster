@@ -1,6 +1,4 @@
-Here’s a comprehensive README for your Tic Tac Toe game project. This README includes sections for introduction, features, setup, usage, and contribution guidelines.
 
----
 
 # TicTacMaster
 
