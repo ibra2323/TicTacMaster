@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a8da7aa5;
+    margin: 0;
+}
+.difficulty{
+    color: #280505a9;
+    
+}
+.container {
+    text-align: center;
+    color: rgba(71, 12, 27, 0.798);
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(73, 47, 145, 0.34);
+    border: 1px solid #421db9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#game-over-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgba(96, 9, 9, 0.506);
+    
+}
